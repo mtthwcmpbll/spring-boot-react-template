@@ -1,6 +1,6 @@
 # Agentic Workflow Instructions
 
-This document outlines the standard operating procedures for building features and contributing to the Turtorial codebase.
+This document outlines the standard operating procedures for building features and contributing to the Spring Boot React Template codebase.
 
 ## 1. Test-Driven Development (TDD)
 

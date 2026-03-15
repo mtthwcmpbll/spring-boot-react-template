@@ -19,7 +19,7 @@ permissions:
 
 env:
   IMAGE_REGISTRY: ghcr.io
-  IMAGE_NAME: mtthwcmpbll/turtorial
+  IMAGE_NAME: mtthwcmpbll/spring-boot-react-template
 
 jobs:
   test-backend:

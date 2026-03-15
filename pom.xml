@@ -109,12 +109,12 @@
         <repository>
             <id>github</id>
             <name>mtthwcmpbll</name>
-            <url>https://maven.pkg.github.com/mtthwcmpbll/turtorial</url>
+            <url>https://maven.pkg.github.com/mtthwcmpbll/spring-boot-react-template</url>
         </repository>
         <snapshotRepository>
             <id>github</id>
             <name>mtthwcmpbll</name>
-            <url>https://maven.pkg.github.com/mtthwcmpbll/turtorial</url>
+            <url>https://maven.pkg.github.com/mtthwcmpbll/spring-boot-react-template</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -173,7 +173,7 @@
                 <activeByDefault>false</activeByDefault>
             </activation>
             <properties>
-                <turtorial.dev-mode>false</turtorial.dev-mode>
+                <spring-boot-react-template.dev-mode>false</spring-boot-react-template.dev-mode>
             </properties>
             <build>
                 <plugins>
