@@ -12,8 +12,8 @@ def get_next_version(bump_type):
     # URL for maven-metadata.xml in GitHub Packages
     # Structure: https://maven.pkg.github.com/OWNER/REPO/GROUP/ARTIFACT/maven-metadata.xml
     # Group com.snowfort -> com/snowfort
-    # Artifact turtorial -> turtorial
-    url = "https://maven.pkg.github.com/mtthwcmpbll/turtorial/com/snowfort/turtorial/maven-metadata.xml"
+    # Artifact spring-boot-react-template -> spring-boot-react-template
+    url = "https://maven.pkg.github.com/mtthwcmpbll/spring-boot-react-template/com/snowfort/spring-boot-react-template/maven-metadata.xml"
 
     token = os.environ.get('GITHUB_TOKEN')
     actor = os.environ.get('GITHUB_ACTOR')

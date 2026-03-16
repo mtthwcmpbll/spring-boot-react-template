@@ -5,7 +5,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: mtthwcmpbll/turtorial
+  IMAGE_NAME: mtthwcmpbll/spring-boot-react-template
 
 jobs:
   build-image:

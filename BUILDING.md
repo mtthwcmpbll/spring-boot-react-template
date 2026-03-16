@@ -1,12 +1,12 @@
-# Building Turtorial 🏗️
+# Building Spring Boot React Template 🏗️
 
-Welcome to the technical guide for **Turtorial**. This document is intended for developers, platform engineers, and contributors who need to build, run, and modify the underlying Turtorial application.
+Welcome to the technical guide for **Spring Boot React Template**. This document is intended for developers, platform engineers, and contributors who need to build, run, and modify the underlying Spring Boot React Template application.
 
 If you are looking to create content (lessons, quizzes, etc.) without modifying the platform code, please see the main [README.md](README.md).
 
 ## 🛠️ Prerequisites
 
-To build and run Turtorial locally, you will need:
+To build and run Spring Boot React Template locally, you will need:
 
 *   **Java**: JDK 25 or later.
 *   **Node.js**: v24.12.0 or later (automatically managed by Maven in production builds).
@@ -45,7 +45,7 @@ To create a self-contained JAR file that includes the compiled frontend assets:
 ```
 *   This command activates the `production` profile in `pom.xml`.
 *   It automatically installs Node/NPM, builds the frontend application via Vite, and copies the distribution artifacts into the JAR.
-*   **Run the artifact:** `java -jar target/turtorial-0.0.1-SNAPSHOT.jar`
+*   **Run the artifact:** `java -jar target/spring-boot-react-template-0.0.1-SNAPSHOT.jar`
 
 ## 🐳 Docker
 
@@ -58,7 +58,7 @@ docker compose up --build
 
 ## 🏗️ Architecture
 
-Turtorial utilizes a **Hybrid Monolith** architecture designed for simplicity and ease of deployment.
+Spring Boot React Template utilizes a **Hybrid Monolith** architecture designed for simplicity and ease of deployment.
 
 ### Backend (Java 25 + Spring Boot 4)
 *   **Core**: A standard Spring Boot 4.0.1 application managed by Maven.

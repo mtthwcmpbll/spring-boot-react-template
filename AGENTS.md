@@ -1,6 +1,6 @@
 # Agentic Workflow Instructions
 
-This document outlines the standard operating procedures for building features and contributing to the Turtorial codebase.
+This document outlines the standard operating procedures for building features and contributing to the Spring Boot React Template codebase.
 
 ## 1. Test-Driven Development (TDD)
 
@@ -31,17 +31,11 @@ This document outlines the standard operating procedures for building features a
 *   **Separation of Concerns:** Clearly separate business logic from presentation and data access.
 *   **Interfaces:** Use interfaces to define contracts between modules, facilitating easier testing and refactoring.
 
-## 4. Documentation & Lesson Updates
+## 4. Documentation Updates
 
-**When adding a new feature, you MUST document it for users.**
+**When adding a new feature, you MUST update project documentation as part of your work.**
 
-*   **Target Audience:** Lesson authors (users writing tutorials).
-*   **Location:** The default lesson included on the classpath (`src/main/resources/lessons/introduction`).
-*   **Requirement:**
-    *   Add a new step or section to the default lesson explaining how the feature works and how to use it.
-    *   Provide clear examples and code snippets.
-    *   Ensure the documentation is visible immediately when a user starts the application.
-*   **Why:** This ensures that new capabilities are immediately discoverable and usable by the community.
+*   **Requirement:** Ensure any new features, API changes, or architectural decisions are clearly documented in the project's README or other appropriate documentation files.
 
 ## 5. Source of Truth
 
